@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #000000;
+}
+h1{
+    margin: 100px;
+    padding: 0;
+    font-family: roboto;
+    font-size: 10em;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    color: #11aacf;
+}
+h1:before{
+    content: 'Liquid';
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 25%;
+    color: #fff;
+    overflow: hidden;
+    animation: animate 6s infinite linear;
+}
+
+@keyframes animate{
+    0%{
+        height: 10%
+    }
+    25%{
+        height: 50%
+    }
+    50%{
+        height: 30%
+    }
+    75%{
+        height: 60%
+    }
+    100%{
+        height: 10%
+    }
+
+}
+
+h2{
+    margin: 100px;
+    padding: 0;
+    font-family: roboto;
+    font-size: 10em;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    color: #11a7e2;
+}
+h2:before{
+    content: 'Effect';
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 25%;
+    color: #fff;
+    overflow: hidden;
+    animation: animate 6s infinite linear;
+}
